@@ -1,10 +1,10 @@
 [Setup]
 AppName=Claude Desktop
-AppVersion=1.0.0
+AppVersion=1.1.0
 AppPublisher=Ryanabcraft
 AppPublisherURL=https://github.com/Ryanabcraft/claude-desktop
 AppSupportURL=https://github.com/Ryanabcraft/claude-desktop/issues
-DefaultDirName={autopf}\Claude Desktop
+DefaultDirName={localappdata}\Claude Desktop
 DefaultGroupName=Claude Desktop
 UninstallDisplayIcon={app}\Claude.exe
 UninstallDisplayName=Claude Desktop
@@ -12,7 +12,7 @@ OutputDir=dist_installer
 OutputBaseFilename=Claude-Desktop-Setup
 Compression=lzma2
 SolidCompression=yes
-PrivilegesRequired=admin
+PrivilegesRequired=lowest
 
 [Languages]
 Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"

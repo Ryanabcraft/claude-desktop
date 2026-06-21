@@ -159,7 +159,7 @@ def launch_url(url, browser_path=None):
             else:
                 args = [browser_path, "--new-window", url]
         else:
-            args = [browser_path, "--app=" + url, "--new-window", "--no-first-run"]
+            args = [browser_path, "--app=" + url, "--new-window", "--no-first-run", "--force-dark-mode"]
 
         subprocess.Popen(args)
         return True, None
